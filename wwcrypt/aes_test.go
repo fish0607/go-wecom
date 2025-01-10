@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wenerme/go-wecom/wecom"
-	"github.com/wenerme/go-wecom/wwcrypt"
+	"github.com/fish0607/go-wecom/wecom"
+	"github.com/fish0607/go-wecom/wwcrypt"
 )
 
 func TestAES(t *testing.T) {
