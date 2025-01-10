@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/wenerme/go-wecom/wecom"
+	"github.com/fish0607/go-wecom/wecom"
 
 	"github.com/sbzhu/weworkapi_golang/wxbizmsgcrypt"
 	"github.com/stretchr/testify/assert"
