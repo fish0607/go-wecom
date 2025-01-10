@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/wenerme/go-req"
-	"github.com/wenerme/go-wecom/wecom"
+	"github.com/fish0607/go-wecom/wecom"
 )
 
 func ExampleNewClient() {
