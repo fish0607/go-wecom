@@ -78,8 +78,8 @@ docker:
 
 .PHONY: bin
 bin:
-	CGO_ENABLED=0 go build -o bin/wwfinance-libs -trimpath -ldflags "-s -w" github.com/wenerme/go-wecom/cmd/wwfinance-libs
-	go build -o bin/wwfinance-poller -trimpath -ldflags "-s -w" github.com/wenerme/go-wecom/cmd/wwfinance-poller
+	CGO_ENABLED=0 go build -o bin/wwfinance-libs -trimpath -ldflags "-s -w" github.com/fish0607/go-wecom/cmd/wwfinance-libs
+	go build -o bin/wwfinance-poller -trimpath -ldflags "-s -w" github.com/fish0607/go-wecom/cmd/wwfinance-poller
 
 install:
 	go install mvdan.cc/gofumpt@latest
