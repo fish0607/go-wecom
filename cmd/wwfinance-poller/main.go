@@ -17,13 +17,13 @@ import (
 
 	_ "github.com/glebarez/go-sqlite"
 	gsqlite "github.com/glebarez/go-sqlite"
-	"github.com/wenerme/go-wecom/WeWorkFinanceSDK/models"
+	"github.com/fish0607/go-wecom/WeWorkFinanceSDK/models"
 	"gorm.io/gorm"
 
 	"github.com/glebarez/sqlite"
 	"github.com/oklog/ulid/v2"
 	"github.com/sirupsen/logrus"
-	"github.com/wenerme/go-wecom/WeWorkFinanceSDK"
+	"github.com/fish0607/go-wecom/WeWorkFinanceSDK"
 	"gorm.io/driver/postgres"
 )
 
