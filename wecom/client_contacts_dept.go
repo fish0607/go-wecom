@@ -49,7 +49,7 @@ func (c *Client) DeleteDepartment(r *DeleteDepartmentRequest, opts ...interface{
 func (c *Client) ListDepartment(r *ListDepartmentRequest, opts ...interface{}) (out ListDepartmentResponse, err error) {
 	err = c.Request.With(req.Request{
 		Method:  "GET",
-		URL:     "/cgi-bin/department/list",
+		URL:     "/cgi-bin/department/get",
 		Query:   r,
 		Options: opts,
 	}).Fetch(&out)
