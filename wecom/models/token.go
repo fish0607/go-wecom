@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/wenerme/go-wecom/commons/gorms"
+	"github.com/fish0607/go-wecom/commons/gorms"
 )
 
 type Token struct {
