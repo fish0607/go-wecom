@@ -91,7 +91,7 @@ func (c *Client) SimpleListUser(r *SimpleListUserRequest, opts ...interface{}) (
 func (c *Client) ListUser(r *ListUserRequest, opts ...interface{}) (out ListUserResponse, err error) {
 	err = c.Request.With(req.Request{
 		Method:  "GET",
-		URL:     "/cgi-bin/user/list",
+		URL:     "/cgi-bin/user/list_id",
 		Query:   r,
 		Options: opts,
 	}).Fetch(&out)
