@@ -9,7 +9,7 @@ COPY . .
 ENV CGO_ENABLED=1
 RUN --mount=type=cache,target=/root/go/ \
     --mount=type=cache,target=/root/.cache/go-build \
-    go build -o /app/bin/ -trimpath -ldflags "-s -w" github.com/wenerme/go-wecom/cmd/wwfinance-poller \
+    go build -o /app/bin/ -trimpath -ldflags "-s -w" github.com/fish0607/go-wecom/cmd/wwfinance-poller \
     && mkdir -p /app/libs/ \
     && cp WeWorkFinanceSDK/libs/libWeWorkFinanceSdk_C.so /app/libs/ \
     && cp WeWorkFinanceSDK/libs/md5sum.txt /app/libs/ \
